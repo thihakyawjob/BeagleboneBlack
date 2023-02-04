@@ -64,3 +64,8 @@ $ ./configure -platform linux-g++ -release -device linux-beagleboard-g++ -sysroo
 ~/qt-512/qt-everywhere-src-5.12.1$ make install
 ```
 * Install QT Creator Software
+
+## FAQ
+```python
+sudo apt install libxcb-xinerama0
+```
