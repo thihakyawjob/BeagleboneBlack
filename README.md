@@ -40,6 +40,7 @@ rsync -avz debian@192.168.7.2:/usr sysroot
 **BBB Folder**
 
 ![BBB Folder](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Folder.png)
+
 Send the following command:
 ```python
 $ ./sysroot-relativelink.py sysroot
