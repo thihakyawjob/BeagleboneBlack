@@ -37,14 +37,13 @@ rsync -avz debian@192.168.7.2:/sbin sysroot
 rsync -avz debian@192.168.7.2:/usr sysroot
 ```
 * Download **sysroot-relativelink.py** file and save it in **BBB** folder.
+**BBB Folder**
 
+![BBB Folder](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Folder.png)
 Send the following command:
 ```python
 $ ./sysroot-relativelink.py sysroot
 ```
-**BBB Folder**
-
-![BBB Folder](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Folder.png)
 * Make Directory for QT5 Software
 ```python
 $ mkdir ~/qt-512/
