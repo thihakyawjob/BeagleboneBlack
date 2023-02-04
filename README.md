@@ -42,6 +42,8 @@ Send the following command:
 ```python
 $ ./sysroot-relativelink.py sysroot
 ```
+**BBB Folder**
+![BBB Folder](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Folder.png)
 * Make Directory for QT5 Software
 ```python
 $ mkdir ~/qt-512/
