@@ -38,4 +38,8 @@ rsync -avz debian@192.168.7.2:/usr sysroot
 ```
 Download **sysroot-relativelink.py** file and save it in **BBB** folder
 
+Send the following command:
+```python
+./sysroot-relativelink.py sysroot
+```
 
