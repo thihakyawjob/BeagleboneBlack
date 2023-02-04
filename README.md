@@ -1,6 +1,5 @@
 # BeagleboneBlack
 Software Development using BeagleboneBlack
-
 ## Beaglebone Black Software Environment Setup using QT5 IDE
 ### 1. Requirements
 1)  [qt-everywhere-src-5.12.1.tar.xz](https://download.qt.io/archive/qt/5.12/5.12.1/single/)
@@ -9,7 +8,14 @@ Software Development using BeagleboneBlack
 
 ### 3. Beaglebone Black Image
 * [AM3358 Debian 10.3 2020-04-06 4GB eMMC IoT Flasher](https://beagleboard.org/latest-images)
+Check the software version using the following command.
 
+Type *ssh debian@192.168.7.2* and password: *temppwd*
+![Result1](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_VersionCheck1.png)
+```python
+lsb_release -a
+```
+![Result2](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_VersionCheck2.png)
 ### 2. Installation on Ubuntu 20.04 Computer
 ```python
 sudo apt install gcc-arm-linux-gnueabihf
