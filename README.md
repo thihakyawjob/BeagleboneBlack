@@ -51,7 +51,7 @@ $ mkdir ~/qt-512/
 $ cd ~/qt-512
 $ ./configure -platform linux-g++ -release -device linux-beagleboard-g++ -sysroot /home/techgeneous/BBB/sysroot -prefix /home/techgeneous/BBB/qt-512 -hostprefix /home/techgeneous/BBB/qt-512 -device-option CROSS_COMPILE=/home/techgeneous/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf- -nomake tests -nomake examples -no-opengl -opensource -confirm-license -reduce-exports -make libs
 ```
-* Extract **qt-everywhere-src-5.12.1.tar.xz** in **qt-512** folder. 
+* Extract **qt-everywhere-src-5.12.1.tar.xz** in **qt-512** folder. Then proceed to QT5 software configuration using the following command.
 ```python
 $ cd ~/qt-512/qt-everywhere-src-5.12.1
 $ ./configure -platform linux-g++ -release -device linux-beagleboard-g++ -sysroot /home/**USER**/BBB/sysroot -prefix /home/**USER**/BBB/qt-512 -hostprefix /home/**USER**/BBB/qt-512 -device-option CROSS_COMPILE=/home/**USER**/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf- -nomake tests -nomake examples -no-opengl -opensource -confirm-license -reduce-exports -make libs
