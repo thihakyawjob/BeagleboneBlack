@@ -18,11 +18,10 @@ sudo install python3
 sudo apt install gdb-multiarch
 ```
 * Make Directory
-
+```python
 $ mkdir ~/BBB/
-
 $ cd ~/BBB/
-
+```
 * To sync the sysroot from beaglebone to your computer, use the following commands:
 In BBB folder,
 ```python
