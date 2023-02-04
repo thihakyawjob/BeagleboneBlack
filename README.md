@@ -13,7 +13,7 @@ Software Development using BeagleboneBlack
 <pre><code>
 sudo apt install gcc-arm-linux-gnueabihf
 sudo apt install build-essential
-sudo apt install libssl-dev libffi-dev libncurses5-dev zlib1g zlib1g-dev libreadline-dev libbz2-dev libsqlite3-dev make gcc 
+sudo apt install libssl-dev libffi-dev libncurses5-dev zlib1g zlib1g-dev libreadline-dev libbz2-dev libsqlite3-dev make
 sudo install python3
 sudo apt install gdb-multiarch
 </code></pre>
