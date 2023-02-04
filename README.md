@@ -17,5 +17,11 @@ sudo apt install libssl-dev libffi-dev libncurses5-dev zlib1g zlib1g-dev libread
 sudo install python3
 sudo apt install gdb-multiarch
 </code></pre>
+To sync the sysroot from beaglebone to your computer, use the following commands:
+<pre><code>
+rsync -avz debian@192.168.7.2:/lib sysroot
+rsync -avz debian@192.168.7.2:/sbin sysroot
+rsync -avz debian@192.168.7.2:/usr sysroot
+</code></pre>
 
 
