@@ -9,18 +9,19 @@ Software Development using BeagleboneBlack
 
 ### 3. Beaglebone Black Image
 * [AM3358 Debian 10.3 2020-04-06 4GB eMMC IoT Flasher](https://beagleboard.org/latest-images)
-Check the software version using the following command.
+* Check the software version using the following command.
 
 Type *ssh debian@192.168.7.2* and password: *temppwd*
 ![Result1](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_VersionCheck1.png)
 ```python
 lsb_release -a
 ```
-Install *gdbserver* in Beaglebone Black.
+![Result2](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_VersionCheck2.png)
+
+* Install *gdbserver* in Beaglebone Black.
 ```python
 debian@beaglebone:~$ sudo apt-get install gdbserver
 ```
-![Result2](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_VersionCheck2.png)
 ### 2. Installation on Ubuntu 20.04 Computer
 ```python
 sudo apt install gcc-arm-linux-gnueabihf
