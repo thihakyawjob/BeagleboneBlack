@@ -77,6 +77,20 @@ $ sudo ./qt-opensource-linux-x64-5.12.12.run
 ### 4. Setup Kits Beaglebone Black On Qt Creator
 1) Open Qt Creator
 2) Go to **Tools &rarr; Options...**
+
+![DeviceTab](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/DeviceTab.png)
+
+![GenericLinux](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/GenericLinux.png)
+
+![BBB_Devic_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Devic_Config.png)
+
+![BBB_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Config.png)
+
+![QTVersion](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTVersion.png)
+
+![gdb-multiarch](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/gdb-multiarch.png)
+
+![connection_test](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/connection_test.png)
 ## FAQ
 ```python
 sudo apt install libxcb-xinerama0
