@@ -31,13 +31,13 @@ sudo install python3
 sudo apt install gdb-multiarch
 ```
 * Make Directory
-```python
+```console
 $ mkdir ~/BBB/
 $ cd ~/BBB/
 ```
 * To sync the sysroot from beaglebone to your computer, use the following commands:
 In BBB folder,
-```python
+```console
 rsync -avz debian@192.168.7.2:/lib sysroot
 rsync -avz debian@192.168.7.2:/sbin sysroot
 rsync -avz debian@192.168.7.2:/usr sysroot
