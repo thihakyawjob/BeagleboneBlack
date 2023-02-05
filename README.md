@@ -7,7 +7,7 @@ Software Development using BeagleboneBlack
 3)  [gcc-linaro-6.3.1-2017.02-i686_arm-linux-gnueabihf.tar.xz](https://releases.linaro.org/components/toolchain/binaries/6.3-2017.02/arm-linux-gnueabihf/)
 4) [sysroot-relativelink.py](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/sysroot-relativelink.py)
 
-### 3. Beaglebone Black Image
+### 2. Beaglebone Black Image
 * [AM3358 Debian 10.3 2020-04-06 4GB eMMC IoT Flasher](https://beagleboard.org/latest-images)
 * Check the software version using the following command.
 
@@ -22,7 +22,7 @@ debian@beaglebone:~$ lsb_release -a
 ```python
 debian@beaglebone:~$ sudo apt-get install gdbserver
 ```
-### 2. Installation on Ubuntu 20.04 Computer
+### 3. Installation on Ubuntu 20.04 Computer
 ```python
 sudo apt install gcc-arm-linux-gnueabihf
 sudo apt install build-essential
@@ -74,7 +74,7 @@ $ sudo ./qt-opensource-linux-x64-5.12.12.run
 ```
 ![QTInstaller](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTInstaller.png)
 
-## Setup Kits Beaglebone Black On Qt Creator
+### 4. Setup Kits Beaglebone Black On Qt Creator
 
 ## FAQ
 ```python
