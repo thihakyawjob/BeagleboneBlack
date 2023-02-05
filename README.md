@@ -74,7 +74,7 @@ $ sudo ./qt-opensource-linux-x64-5.12.12.run
 ```
 ![QTInstaller](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTInstaller.png)
 
-
+## Setup Kits Beaglebone Black On Qt Creator
 
 ## FAQ
 ```python
