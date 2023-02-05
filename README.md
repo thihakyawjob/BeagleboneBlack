@@ -75,7 +75,8 @@ $ sudo ./qt-opensource-linux-x64-5.12.12.run
 ![QTInstaller](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTInstaller.png)
 
 ### 4. Setup Kits Beaglebone Black On Qt Creator
-
+1) Open Qt Creator
+2) Go to **Tools** &rarr **Options...**
 ## FAQ
 ```python
 sudo apt install libxcb-xinerama0
