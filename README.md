@@ -16,6 +16,10 @@ Type *ssh debian@192.168.7.2* and password: *temppwd*
 ```python
 lsb_release -a
 ```
+Install *gdbserver* in Beaglebone Black.
+```python
+debian@beaglebone:~$ sudo apt-get install gdbserver
+```
 ![Result2](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_VersionCheck2.png)
 ### 2. Installation on Ubuntu 20.04 Computer
 ```python
@@ -68,6 +72,9 @@ $ ./configure -platform linux-g++ -release -device linux-beagleboard-g++ -sysroo
 $ sudo ./qt-opensource-linux-x64-5.12.12.run
 ```
 ![QTInstaller](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTInstaller.png)
+
+
+
 ## FAQ
 ```python
 sudo apt install libxcb-xinerama0
