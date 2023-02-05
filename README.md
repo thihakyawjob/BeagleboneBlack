@@ -3,7 +3,7 @@ Software Development using BeagleboneBlack
 ## Beaglebone Black Software Environment Setup using QT5 IDE
 ### 1. Requirements
 1)  [qt-everywhere-src-5.12.1.tar.xz](https://download.qt.io/archive/qt/5.12/5.12.1/single/)
-2) 	[Qt Creator 9.0.1 for Linux 64-bit](https://www.qt.io/offline-installers)
+2) 	[Qt 5.12.12 for Linux 64-bit (1.3 GB) from 5.12.x Offline Installers](https://www.qt.io/offline-installers) 
 3)  [gcc-linaro-6.3.1-2017.02-i686_arm-linux-gnueabihf.tar.xz](https://releases.linaro.org/components/toolchain/binaries/6.3-2017.02/arm-linux-gnueabihf/)
 4) [sysroot-relativelink.py](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/sysroot-relativelink.py)
 
