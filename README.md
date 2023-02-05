@@ -14,7 +14,7 @@ Software Development using BeagleboneBlack
 Type *ssh debian@192.168.7.2* and password: *temppwd*
 ![Result1](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_VersionCheck1.png)
 ```python
-lsb_release -a
+debian@beaglebone:~$ lsb_release -a
 ```
 ![Result2](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_VersionCheck2.png)
 
