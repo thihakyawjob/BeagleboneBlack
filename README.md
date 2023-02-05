@@ -63,8 +63,11 @@ $ ./configure -platform linux-g++ -release -device linux-beagleboard-g++ -sysroo
 ~/qt-512/qt-everywhere-src-5.12.1$ make
 ~/qt-512/qt-everywhere-src-5.12.1$ make install
 ```
-* Install QT Creator Software
-
+* Install Qt offline installer
+```python
+$ sudo ./qt-opensource-linux-x64-5.12.12.run
+```
+![QTInstaller](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTInstaller.png)
 ## FAQ
 ```python
 sudo apt install libxcb-xinerama0
