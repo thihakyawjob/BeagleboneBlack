@@ -76,7 +76,7 @@ $ sudo ./qt-opensource-linux-x64-5.12.12.run
 
 ### 4. Setup Kits Beaglebone Black On Qt Creator
 1) Open Qt Creator
-2) Go to **Tools** &rarr **Options...**
+2) Go to **Tools** &rarr; **Options...**
 ## FAQ
 ```python
 sudo apt install libxcb-xinerama0
