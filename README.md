@@ -89,6 +89,8 @@ $ sudo ./qt-opensource-linux-x64-5.12.12.run
 
 ![BBB_Devic_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Devic_Config.png)
 
+![connection_test](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/connection_test.png)
+
 5) Go to **Kits** tab and add the **Debugger**.
 
 Name: gdb-multiarch
@@ -96,8 +98,6 @@ Name: gdb-multiarch
 Path: /bin/gdb-multiarch
 
 ![gdb-multiarch](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/gdb-multiarch.png)
-
-![connection_test](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/connection_test.png)
 
 ![QTVersion](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTVersion.png)
 
