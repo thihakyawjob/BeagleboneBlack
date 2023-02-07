@@ -98,14 +98,21 @@ Path: /bin/gdb-multiarch
 ```
 ![gdb-multiarch](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/gdb-multiarch.png)
 
-5) Go to **Kits** tab and add **qmake** path in **Qt Versions**.
+6) Go to **Kits** tab and add **qmake** path in **Qt Versions**.
 ```console
 qmake path: /home/techgeneous/BBB/qt-512/bin/qmake
 ```
 ![QTVersion](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTVersion.png)
 
+7) Go to **Kits** tab and add **GCC_BBB** C and C++ compilers in **Compilers**.
+```console
+Compiler path: /home/techgeneous/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf-gcc
+```
+![Compilers](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/Compilers.png)
 
+8) Finally add **BBB** kit and set the configuration as follow.
 
+![BBBKitsSettings](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBBKitsSettings.png)
 
 ## FAQ
 ```console
