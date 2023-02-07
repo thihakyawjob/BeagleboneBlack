@@ -55,7 +55,6 @@ $ ./sysroot-relativelink.py sysroot
 ```console
 $ mkdir ~/qt-512/
 $ cd ~/qt-512
-$ ./configure -platform linux-g++ -release -device linux-beagleboard-g++ -sysroot /home/techgeneous/BBB/sysroot -prefix /home/techgeneous/BBB/qt-512 -hostprefix /home/techgeneous/BBB/qt-512 -device-option CROSS_COMPILE=/home/techgeneous/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf- -nomake tests -nomake examples -no-opengl -opensource -confirm-license -reduce-exports -make libs
 ```
 * Configure Qt5 for Beaglebone Black 
 Extract **qt-everywhere-src-5.12.1.tar.xz** in **qt-512** folder. Then proceed to QT5 software configuration using the following command.
@@ -79,6 +78,7 @@ $ sudo ./qt-opensource-linux-x64-5.12.12.run
 2) Go to **Tools &rarr; Options...**
 
 ![DeviceTab](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/DeviceTab.png)
+3) Go to **Devices** Tab and add a new device as **Generic Linux Device**.
 
 ![GenericLinux](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/GenericLinux.png)
 
