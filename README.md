@@ -60,7 +60,7 @@ $ cd ~/qt-512
 Extract **qt-everywhere-src-5.12.1.tar.xz** in **qt-512** folder. Then proceed to QT5 software configuration using the following command.
 ```console
 $ cd ~/qt-512/qt-everywhere-src-5.12.1
-$ ./configure -platform linux-g++ -release -device linux-beagleboard-g++ -sysroot /home/**USER**/BBB/sysroot -prefix /home/**USER**/BBB/qt-512 -hostprefix /home/**USER**/BBB/qt-512 -device-option CROSS_COMPILE=/home/**USER**/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf- -nomake tests -nomake examples -no-opengl -opensource -confirm-license -reduce-exports -make libs
+$ ./configure -platform linux-g++ -release -device linux-beagleboard-g++ -sysroot /home/techgeneous/BBB/sysroot -prefix /home/techgeneous/BBB/qt-512 -hostprefix /home/techgeneous/BBB/qt-512 -device-option CROSS_COMPILE=/home/techgeneous/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf- -nomake tests -nomake examples -no-opengl -opensource -confirm-license -reduce-exports -make libs
 ```
 * make and make install
 ```console
@@ -115,6 +115,8 @@ Compiler path: /home/techgeneous/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf-gc
 ![BBBKitsSettings](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBBKitsSettings.png)
 
 ## FAQ
+1) User needs to replace **techgeneous** name with his user name.
+2)
 ```console
 sudo apt install libxcb-xinerama0
 ```
