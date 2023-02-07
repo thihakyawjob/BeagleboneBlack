@@ -78,11 +78,15 @@ $ sudo ./qt-opensource-linux-x64-5.12.12.run
 2) Go to **Tools &rarr; Options...**
 
 ![DeviceTab](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/DeviceTab.png)
+
 3) Go to **Devices** Tab and add a new device as **Generic Linux Device**.
+
+![BBB_Devic_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Devic_Config.png)
+
+4) Connection Test will fail. Then Change the authentication type to **Default** and test again. Coonection will be successful. The final device configuration will be as follow.
 
 ![GenericLinux](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/GenericLinux.png)
 
-![BBB_Devic_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Devic_Config.png)
 
 ![BBB_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Config.png)
 
