@@ -91,13 +91,14 @@ $ sudo ./qt-opensource-linux-x64-5.12.12.run
 
 ![connection_test](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/connection_test.png)
 
-5) Go to **Kits** tab and add the **Debugger**.
+5) Go to **Kits** tab and add **multiarch** debugger in **Debugger**.
 ```console
 Name: gdb-multiarch
 Path: /bin/gdb-multiarch
 ```
-
 ![gdb-multiarch](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/gdb-multiarch.png)
+
+5) Go to **Kits** tab and add **qmake** path in **Qt Versions**.
 
 ![QTVersion](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTVersion.png)
 
