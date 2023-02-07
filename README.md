@@ -99,7 +99,9 @@ Path: /bin/gdb-multiarch
 ![gdb-multiarch](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/gdb-multiarch.png)
 
 5) Go to **Kits** tab and add **qmake** path in **Qt Versions**.
-
+```console
+qmake path: /home/techgeneous/BBB/qt-512/bin/qmake
+```
 ![QTVersion](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTVersion.png)
 
 
