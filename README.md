@@ -85,7 +85,7 @@ $ sudo ./qt-opensource-linux-x64-5.12.12.run
 
 ![BBB_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Config.png)
 
-4) Connection Test will fail. Then Change the authentication type to **Default** and test again. Coonection will be successful. The final device configuration will be as follow.
+4) Connection Test will fail. Then Change the authentication type to **Default** and test again. Connection will be successful. The final device configuration will be as follow.
 
 ![BBB_Devic_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Devic_Config.png)
 
@@ -113,6 +113,10 @@ Compiler path: /home/techgeneous/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf-gc
 8) Finally add **BBB** kit and set the configuration as follow.
 
 ![BBBKitsSettings](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBBKitsSettings.png)
+
+## HELLO WORLD
+
+
 
 ## FAQ
 1) User needs to replace **techgeneous** name with his user name.
