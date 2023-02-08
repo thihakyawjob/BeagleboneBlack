@@ -12,11 +12,11 @@ Software Development using BeagleboneBlack
 * Check the software version using the following command.
 
 Type *ssh debian@192.168.7.2* and password: *temppwd*
-![Result1](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_VersionCheck1.png)
+![Result1](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/BBB_VersionCheck1.png)
 ```console
 debian@beaglebone:~$ lsb_release -a
 ```
-![Result2](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_VersionCheck2.png)
+![Result2](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/BBB_VersionCheck2.png)
 
 * Install *gdbserver* in Beaglebone Black.
 ```console
@@ -45,7 +45,7 @@ rsync -avz debian@192.168.7.2:/usr sysroot
 * Download **sysroot-relativelink.py** file and save it in **BBB** folder.
 **BBB Folder**
 
-![BBB Folder](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Folder.png)
+![BBB Folder](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/BBB_Folder.png)
 
 Send the following command:
 ```console
@@ -71,48 +71,48 @@ $ ./configure -platform linux-g++ -release -device linux-beagleboard-g++ -sysroo
 ```console
 $ sudo ./qt-opensource-linux-x64-5.12.12.run
 ```
-![QTInstaller](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTInstaller.png)
+![QTInstaller](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/QTInstaller.png)
 
 ### 4. Setup Kits Beaglebone Black On Qt Creator
 1) Open Qt Creator
 2) Go to **Tools &rarr; Options...**
 
-![DeviceTab](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/DeviceTab.png)
+![DeviceTab](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/DeviceTab.png)
 
 3) Go to **Devices** Tab and add a new device as **Generic Linux Device**.
 
-![GenericLinux](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/GenericLinux.png)
+![GenericLinux](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/GenericLinux.png)
 
-![BBB_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Config.png)
+![BBB_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/BBB_Config.png)
 
 4) Connection Test will fail. Then Change the authentication type to **Default** and test again. Connection will be successful. The final device configuration will be as follow.
 
-![BBB_Devic_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBB_Devic_Config.png)
+![BBB_Devic_Config](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/BBB_Devic_Config.png)
 
-![connection_test](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/connection_test.png)
+![connection_test](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/connection_test.png)
 
 5) Go to **Kits** tab and add **multiarch** debugger in **Debugger**.
 ```console
 Name: gdb-multiarch
 Path: /bin/gdb-multiarch
 ```
-![gdb-multiarch](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/gdb-multiarch.png)
+![gdb-multiarch](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/gdb-multiarch.png)
 
 6) Go to **Kits** tab and add **qmake** path in **Qt Versions**.
 ```console
 qmake path: /home/techgeneous/BBB/qt-512/bin/qmake
 ```
-![QTVersion](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/QTVersion.png)
+![QTVersion](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/QTVersion.png)
 
 7) Go to **Kits** tab and add **GCC_BBB** C and C++ compilers in **Compilers**.
 ```console
 Compiler path: /home/techgeneous/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf-gcc
 ```
-![Compilers](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/Compilers.png)
+![Compilers](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/Compilers.png)
 
 8) Finally add **BBB** kit and set the configuration as follow.
 
-![BBBKitsSettings](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/BBBKitsSettings.png)
+![BBBKitsSettings](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/BBBKitsSettings.png)
 
 ## HELLO WORLD
 
