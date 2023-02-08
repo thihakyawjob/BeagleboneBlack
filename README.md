@@ -133,7 +133,8 @@ Change **target.path = /home/**
 sudo apt install libxcb-xinerama0
 sudo apt-get install libqt5gui5
 ```
-3) If *error: failed to create remote directories: mkdir: cannot create directory*, change **BBB Device Username: root** .
+3) If *error: failed to create remote directories: mkdir: cannot create directory*, change **BBB Device Username: root** . Password: root.
+
 In Beaglebone,
 ```console
 $ sudo nano /etc/ssh/sshd_config
@@ -147,5 +148,6 @@ PermitEmptyPasswords yes
 ```
 
 Reboot Beaglebone Device.
+
 
 
