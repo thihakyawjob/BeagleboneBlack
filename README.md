@@ -123,4 +123,5 @@ Compiler path: /home/techgeneous/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf-gc
 2)
 ```console
 sudo apt install libxcb-xinerama0
+sudo apt-get install libqt5gui5
 ```
