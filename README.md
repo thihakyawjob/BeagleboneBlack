@@ -119,6 +119,9 @@ Compiler path: /home/techgeneous/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf-gc
 ![helloqt](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/helloqt.png)
 ![chooseQMake](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/chooseQMake.png)
 ![SelectBBB](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/SelectBBB.png)
+
+Change **target.path = /home/**
+
 ![SettingPro](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/SettingPro.png)
 ![RUN](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/RUN1.png)
 
