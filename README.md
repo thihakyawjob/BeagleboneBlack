@@ -115,7 +115,12 @@ Compiler path: /home/techgeneous/BBB/gcc-linaro-6.3.1/bin/arm-linux-gnueabihf-gc
 ![BBBKitsSettings](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/BBBKitsSettings.png)
 
 ## HELLO WORLD
-
+![NewQTConsolePjt](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/NewQTConsolePjt.png)
+![helloqt](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/helloqt.png)
+![chooseQMake](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/chooseQMake.png)
+![SelectBBB](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/SelectBBB.png)
+![SettingPro](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/SettingPro.png)
+![RUN](https://github.com/thihakyawjob/BeagleboneBlack/blob/main/pictures/RUN.png)
 
 
 ## FAQ
