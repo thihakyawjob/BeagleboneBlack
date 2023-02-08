@@ -128,8 +128,24 @@ Change **target.path = /home/**
 
 ## FAQ
 1) User needs to replace **techgeneous** name with his user name.
-2)
+2) To install
 ```console
 sudo apt install libxcb-xinerama0
 sudo apt-get install libqt5gui5
 ```
+3) If *error: failed to create remote directories: mkdir: cannot create directory*, change **BBB Device Username: root** .
+In Beaglebone,
+```console
+$ sudo nano /etc/ssh/sshd_config
+```
+Change the following settings in sshd_config file.
+```console
+PermitRootLogin yes
+PubkeyAuthentication yes
+PasswordAuthentication yes
+PermitEmptyPasswords yes
+```
+
+Reboot Beaglebone Device.
+
+
